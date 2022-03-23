@@ -2,10 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/index.css":
-/*!*****************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/index.css ***!
-  \*****************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/global.css":
+/*!******************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/global.css ***!
+  \******************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -21,7 +21,36 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n}\n\nh1 {\n  margin: 0;\n}\n\n#app {\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  min-width: 465px;\n  margin: auto;\n  gap: 20px;\n}\n\nheader {\n  text-align: center;\n  margin: 40px 0 10px 0;\n}\n\nnav {\n  margin: 2em 0;\n}\n\nsection {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n}\n\ninput[type='number']::-webkit-outer-spin-button,\ninput[type='number']::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\ninput[type='submit'] {\n  cursor: pointer;\n  background: #00bcd4;\n  color: #ffffff;\n  outline: 1px solid #00bcd4;\n  border: 1px solid #00bcd4;\n  border-radius: 2px;\n  width: 56px;\n  height: 28px;\n  margin-left: 10px;\n}\n\ninput {\n  background-color: #ffffff;\n  outline: 1px solid #cccccc;\n  border: 1px solid #eeeeee;\n  border-radius: 2px;\n  width: 120px;\n  height: 24px;\n  padding: 1px 2px;\n}\n\ninput:focus {\n  outline: 1px solid #777777;\n  border: 1px solid #bbbbbb;\n}\n\n#change-add-input {\n  width: 300px;\n}\n\nbutton {\n  cursor: pointer;\n  width: 117px;\n  height: 36px;\n  border: none;\n  border-radius: 5px;\n}\n\nbutton:hover {\n  background: rgba(0, 188, 212, 0.16);\n}\n\nh4 {\n  margin: 0;\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 24px;\n  text-align: center;\n  letter-spacing: 0.15px;\n  color: rgba(0, 0, 0, 0.87);\n}\n\n#change-add-container {\n  margin: auto;\n}\n\n#product-list-container {\n  width: 100%;\n}\n\n#product-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n#product-list-wrapper ul {\n  padding: 0;\n}\n\n#change-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n#change-list-wrapper ul {\n  padding: 0;\n}\n\nli {\n  list-style-type: none;\n  text-align: center;\n  font-family: 'Roboto';\n  font-style: normal;\n  display: flex;\n  justify-content: center;\n  border-bottom: 1px solid #dcdcdc;\n}\n\n#product-list {\n  width: 100%;\n}\n\n#product-list li {\n  width: 100%;\n}\n\n#product-list li span {\n  margin: 12px 0px 8px;\n  width: 100%;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: rgba(0, 0, 0, 0.87);\n}\n\n#product-list li input {\n  width: 80%;\n  text-align: center;\n  outline: 1px dotted #777777;\n  border: 1px dotted #bbbbbb;\n}\n\n.product-control-buttons {\n  display: flex;\n  gap: 10px;\n  justify-content: center;\n}\n\n.product-control-buttons button {\n  width: 40%;\n  height: 30px;\n  margin-top: -4px !important;\n}\n\n.product-modify-submit-button {\n  width: 90%;\n  margin-top: -8px !important;\n}\n\n#change-list li {\n  width: 300px;\n}\n\n#change-list li span {\n  margin: 8px 30px 0;\n  width: 70px;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: rgba(0, 0, 0, 0.87);\n}\n\n.list-header {\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  display: flex;\n  align-items: center;\n  letter-spacing: 0.5px;\n  color: rgba(0, 0, 0, 0.87);\n  border-top: 1px solid #dcdcdc;\n}\n", "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,aAAa;EACb,SAAS;AACX;;AAEA;EACE,SAAS;AACX;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,UAAU;EACV,gBAAgB;EAChB,YAAY;EACZ,SAAS;AACX;;AAEA;EACE,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,eAAe;EACf,qBAAqB;AACvB;;AAEA;;EAEE,wBAAwB;EACxB,SAAS;AACX;;AAEA;EACE,eAAe;EACf,mBAAmB;EACnB,cAAc;EACd,0BAA0B;EAC1B,yBAAyB;EACzB,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,yBAAyB;EACzB,0BAA0B;EAC1B,yBAAyB;EACzB,kBAAkB;EAClB,YAAY;EACZ,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,0BAA0B;EAC1B,yBAAyB;AAC3B;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,eAAe;EACf,YAAY;EACZ,YAAY;EACZ,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,mCAAmC;AACrC;;AAEA;EACE,SAAS;EACT,qBAAqB;EACrB,kBAAkB;EAClB,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,kBAAkB;EAClB,sBAAsB;EACtB,0BAA0B;AAC5B;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;AACb;AACA;EACE,UAAU;AACZ;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;AACb;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,qBAAqB;EACrB,kBAAkB;EAClB,qBAAqB;EACrB,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,gCAAgC;AAClC;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,oBAAoB;EACpB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,0BAA0B;AAC5B;;AAEA;EACE,UAAU;EACV,kBAAkB;EAClB,2BAA2B;EAC3B,0BAA0B;AAC5B;;AAEA;EACE,aAAa;EACb,SAAS;EACT,uBAAuB;AACzB;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,2BAA2B;AAC7B;;AAEA;EACE,UAAU;EACV,2BAA2B;AAC7B;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,0BAA0B;AAC5B;;AAEA;EACE,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,aAAa;EACb,mBAAmB;EACnB,qBAAqB;EACrB,0BAA0B;EAC1B,6BAA6B;AAC/B","sourcesContent":["body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n}\n\nh1 {\n  margin: 0;\n}\n\n#app {\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  min-width: 465px;\n  margin: auto;\n  gap: 20px;\n}\n\nheader {\n  text-align: center;\n  margin: 40px 0 10px 0;\n}\n\nnav {\n  margin: 2em 0;\n}\n\nsection {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n}\n\ninput[type='number']::-webkit-outer-spin-button,\ninput[type='number']::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\ninput[type='submit'] {\n  cursor: pointer;\n  background: #00bcd4;\n  color: #ffffff;\n  outline: 1px solid #00bcd4;\n  border: 1px solid #00bcd4;\n  border-radius: 2px;\n  width: 56px;\n  height: 28px;\n  margin-left: 10px;\n}\n\ninput {\n  background-color: #ffffff;\n  outline: 1px solid #cccccc;\n  border: 1px solid #eeeeee;\n  border-radius: 2px;\n  width: 120px;\n  height: 24px;\n  padding: 1px 2px;\n}\n\ninput:focus {\n  outline: 1px solid #777777;\n  border: 1px solid #bbbbbb;\n}\n\n#change-add-input {\n  width: 300px;\n}\n\nbutton {\n  cursor: pointer;\n  width: 117px;\n  height: 36px;\n  border: none;\n  border-radius: 5px;\n}\n\nbutton:hover {\n  background: rgba(0, 188, 212, 0.16);\n}\n\nh4 {\n  margin: 0;\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 24px;\n  text-align: center;\n  letter-spacing: 0.15px;\n  color: rgba(0, 0, 0, 0.87);\n}\n\n#change-add-container {\n  margin: auto;\n}\n\n#product-list-container {\n  width: 100%;\n}\n\n#product-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n#product-list-wrapper ul {\n  padding: 0;\n}\n\n#change-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n#change-list-wrapper ul {\n  padding: 0;\n}\n\nli {\n  list-style-type: none;\n  text-align: center;\n  font-family: 'Roboto';\n  font-style: normal;\n  display: flex;\n  justify-content: center;\n  border-bottom: 1px solid #dcdcdc;\n}\n\n#product-list {\n  width: 100%;\n}\n\n#product-list li {\n  width: 100%;\n}\n\n#product-list li span {\n  margin: 12px 0px 8px;\n  width: 100%;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: rgba(0, 0, 0, 0.87);\n}\n\n#product-list li input {\n  width: 80%;\n  text-align: center;\n  outline: 1px dotted #777777;\n  border: 1px dotted #bbbbbb;\n}\n\n.product-control-buttons {\n  display: flex;\n  gap: 10px;\n  justify-content: center;\n}\n\n.product-control-buttons button {\n  width: 40%;\n  height: 30px;\n  margin-top: -4px !important;\n}\n\n.product-modify-submit-button {\n  width: 90%;\n  margin-top: -8px !important;\n}\n\n#change-list li {\n  width: 300px;\n}\n\n#change-list li span {\n  margin: 8px 30px 0;\n  width: 70px;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: rgba(0, 0, 0, 0.87);\n}\n\n.list-header {\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  display: flex;\n  align-items: center;\n  letter-spacing: 0.5px;\n  color: rgba(0, 0, 0, 0.87);\n  border-top: 1px solid #dcdcdc;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\n  --primary-color: #00bcd4;\n  --primary-button-text-color: #ffffff;\n  --primary-input-bg-color: #ffffff;\n  --input-outline-color: #cccccc;\n  --input-border-color: #eeeeee;\n  --input-outline-focus-color: #777777;\n  --input-border-focus-color: #bbbbbb;\n  --button-hover-color: rgba(0, 188, 212, 0.16);\n  --primary-text-color: rgba(0, 0, 0, 0.87);\n  --list-border-color: #dcdcdc;\n}\n", "",{"version":3,"sources":["webpack://./src/css/global.css"],"names":[],"mappings":"AAAA;EACE,wBAAwB;EACxB,oCAAoC;EACpC,iCAAiC;EACjC,8BAA8B;EAC9B,6BAA6B;EAC7B,oCAAoC;EACpC,mCAAmC;EACnC,6CAA6C;EAC7C,yCAAyC;EACzC,4BAA4B;AAC9B","sourcesContent":[":root {\n  --primary-color: #00bcd4;\n  --primary-button-text-color: #ffffff;\n  --primary-input-bg-color: #ffffff;\n  --input-outline-color: #cccccc;\n  --input-border-color: #eeeeee;\n  --input-outline-focus-color: #777777;\n  --input-border-focus-color: #bbbbbb;\n  --button-hover-color: rgba(0, 188, 212, 0.16);\n  --primary-text-color: rgba(0, 0, 0, 0.87);\n  --list-border-color: #dcdcdc;\n}\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/index.css":
+/*!*****************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/index.css ***!
+  \*****************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_global_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./global.css */ "./node_modules/css-loader/dist/cjs.js!./src/css/global.css");
+// Imports
+
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_global_css__WEBPACK_IMPORTED_MODULE_2__["default"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n}\n\nh1 {\n  margin: 0;\n}\n\n#app {\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  min-width: 465px;\n  margin: auto;\n  gap: 20px;\n}\n\nheader {\n  text-align: center;\n  margin: 40px 0 10px 0;\n}\n\nnav {\n  margin: 2em 0;\n}\n\nsection {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n}\n\ninput[type='number']::-webkit-outer-spin-button,\ninput[type='number']::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\ninput[type='submit'] {\n  cursor: pointer;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n  outline: 1px solid var(--primary-color);\n  border: 1px solid var(--primary-color);\n  border-radius: 2px;\n  width: 56px;\n  height: 28px;\n  margin-left: 10px;\n}\n\ninput {\n  background-color: var(--primary-input-bg-color);\n  outline: 1px solid var(--input-outline-color);\n  border: 1px solid var(--input-border-color);\n  border-radius: 2px;\n  width: 120px;\n  height: 24px;\n  padding: 1px 2px;\n}\n\ninput:focus {\n  outline: 1px solid var(--input-outline-focus-color);\n  border: 1px solid var(--input-border-focus-color);\n}\n\n#change-add-input {\n  width: 300px;\n}\n\nbutton {\n  cursor: pointer;\n  width: 117px;\n  height: 36px;\n  border: none;\n  border-radius: 5px;\n}\n\nbutton:hover {\n  background: var(--button-hover-color);\n}\n\nh4 {\n  margin: 0;\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 24px;\n  text-align: center;\n  letter-spacing: 0.15px;\n  color: var(--primary-text-color);\n}\n\n#change-add-container {\n  margin: auto;\n}\n\n#product-list-container {\n  width: 100%;\n}\n\n#product-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n#product-list-wrapper ul {\n  padding: 0;\n}\n\n#change-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n#change-list-wrapper ul {\n  padding: 0;\n}\n\nli {\n  list-style-type: none;\n  text-align: center;\n  font-family: 'Roboto';\n  font-style: normal;\n  display: flex;\n  justify-content: center;\n  border-bottom: 1px solid var(--list-border-color);\n}\n\n#product-list {\n  width: 100%;\n}\n\n#product-list li {\n  width: 100%;\n}\n\n#product-list li span {\n  margin: 12px 0px 8px;\n  width: 100%;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n#product-list li input {\n  width: 80%;\n  text-align: center;\n  outline: 1px dotted var(--input-outline-focus-color);\n  border: 1px dotted var(--input-border-focus-color);\n}\n\n.product-control-buttons {\n  display: flex;\n  gap: 10px;\n  justify-content: center;\n}\n\n.product-control-buttons button {\n  width: 40%;\n  height: 30px;\n  margin-top: -4px !important;\n}\n\n.product-modify-submit-button {\n  width: 90%;\n  margin-top: -8px !important;\n}\n\n#change-list li {\n  width: 300px;\n}\n\n#change-list li span {\n  margin: 8px 30px 0;\n  width: 70px;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.list-header {\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  display: flex;\n  align-items: center;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n  border-top: 1px solid var(--list-border-color);\n}\n", "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAEA;EACE,YAAY;EACZ,aAAa;EACb,SAAS;AACX;;AAEA;EACE,SAAS;AACX;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,UAAU;EACV,gBAAgB;EAChB,YAAY;EACZ,SAAS;AACX;;AAEA;EACE,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,eAAe;EACf,qBAAqB;AACvB;;AAEA;;EAEE,wBAAwB;EACxB,SAAS;AACX;;AAEA;EACE,eAAe;EACf,gCAAgC;EAChC,uCAAuC;EACvC,uCAAuC;EACvC,sCAAsC;EACtC,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,+CAA+C;EAC/C,6CAA6C;EAC7C,2CAA2C;EAC3C,kBAAkB;EAClB,YAAY;EACZ,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,mDAAmD;EACnD,iDAAiD;AACnD;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,eAAe;EACf,YAAY;EACZ,YAAY;EACZ,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,qCAAqC;AACvC;;AAEA;EACE,SAAS;EACT,qBAAqB;EACrB,kBAAkB;EAClB,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,kBAAkB;EAClB,sBAAsB;EACtB,gCAAgC;AAClC;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;AACb;AACA;EACE,UAAU;AACZ;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;AACb;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,qBAAqB;EACrB,kBAAkB;EAClB,qBAAqB;EACrB,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,iDAAiD;AACnD;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,oBAAoB;EACpB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,gCAAgC;AAClC;;AAEA;EACE,UAAU;EACV,kBAAkB;EAClB,oDAAoD;EACpD,kDAAkD;AACpD;;AAEA;EACE,aAAa;EACb,SAAS;EACT,uBAAuB;AACzB;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,2BAA2B;AAC7B;;AAEA;EACE,UAAU;EACV,2BAA2B;AAC7B;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,gCAAgC;AAClC;;AAEA;EACE,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,aAAa;EACb,mBAAmB;EACnB,qBAAqB;EACrB,gCAAgC;EAChC,8CAA8C;AAChD","sourcesContent":["@import './global.css';\n\nbody {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n}\n\nh1 {\n  margin: 0;\n}\n\n#app {\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  min-width: 465px;\n  margin: auto;\n  gap: 20px;\n}\n\nheader {\n  text-align: center;\n  margin: 40px 0 10px 0;\n}\n\nnav {\n  margin: 2em 0;\n}\n\nsection {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n}\n\ninput[type='number']::-webkit-outer-spin-button,\ninput[type='number']::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\ninput[type='submit'] {\n  cursor: pointer;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n  outline: 1px solid var(--primary-color);\n  border: 1px solid var(--primary-color);\n  border-radius: 2px;\n  width: 56px;\n  height: 28px;\n  margin-left: 10px;\n}\n\ninput {\n  background-color: var(--primary-input-bg-color);\n  outline: 1px solid var(--input-outline-color);\n  border: 1px solid var(--input-border-color);\n  border-radius: 2px;\n  width: 120px;\n  height: 24px;\n  padding: 1px 2px;\n}\n\ninput:focus {\n  outline: 1px solid var(--input-outline-focus-color);\n  border: 1px solid var(--input-border-focus-color);\n}\n\n#change-add-input {\n  width: 300px;\n}\n\nbutton {\n  cursor: pointer;\n  width: 117px;\n  height: 36px;\n  border: none;\n  border-radius: 5px;\n}\n\nbutton:hover {\n  background: var(--button-hover-color);\n}\n\nh4 {\n  margin: 0;\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 24px;\n  text-align: center;\n  letter-spacing: 0.15px;\n  color: var(--primary-text-color);\n}\n\n#change-add-container {\n  margin: auto;\n}\n\n#product-list-container {\n  width: 100%;\n}\n\n#product-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n#product-list-wrapper ul {\n  padding: 0;\n}\n\n#change-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n#change-list-wrapper ul {\n  padding: 0;\n}\n\nli {\n  list-style-type: none;\n  text-align: center;\n  font-family: 'Roboto';\n  font-style: normal;\n  display: flex;\n  justify-content: center;\n  border-bottom: 1px solid var(--list-border-color);\n}\n\n#product-list {\n  width: 100%;\n}\n\n#product-list li {\n  width: 100%;\n}\n\n#product-list li span {\n  margin: 12px 0px 8px;\n  width: 100%;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n#product-list li input {\n  width: 80%;\n  text-align: center;\n  outline: 1px dotted var(--input-outline-focus-color);\n  border: 1px dotted var(--input-border-focus-color);\n}\n\n.product-control-buttons {\n  display: flex;\n  gap: 10px;\n  justify-content: center;\n}\n\n.product-control-buttons button {\n  width: 40%;\n  height: 30px;\n  margin-top: -4px !important;\n}\n\n.product-modify-submit-button {\n  width: 90%;\n  margin-top: -8px !important;\n}\n\n#change-list li {\n  width: 300px;\n}\n\n#change-list li span {\n  margin: 8px 30px 0;\n  width: 70px;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.list-header {\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  display: flex;\n  align-items: center;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n  border-top: 1px solid var(--list-border-color);\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -657,9 +686,10 @@ var RULES = {
     MIN_PRODUCT_PRICE: 100,
     MAX_PRODUCT_AMOUNT: 20,
     MIN_PRODUCT_AMOUNT: 0,
-    MINIMUM_CHARGE: 10,
+    MINIMUM_CHANGE: 10,
     MAX_LENGTH_PRODUCT_NAME: 10,
-    MAX_VENDING_MACHINE_CHANGE: 100000
+    MAX_VENDING_MACHINE_CHANGE: 100000,
+    NOT_EXIST_INDEX: -1
 };
 var ERROR_MESSAGE = {
     PRODUCT_NAME_IS_DUPLICATED: '이미 존재하는 이름의 상품입니다.',
@@ -727,10 +757,9 @@ var VendingMachine = /** @class */ (function () {
     VendingMachine.prototype.inputChanges = function (money) {
         this.checkInputChangesValidate(money);
         this.totalMoney += money;
-        this.makeChanges(money);
+        this.makeChangesToCoin(money);
     };
-    // makeChanges 과연 적절한 이름인가? 리팩토링때 다시보기
-    VendingMachine.prototype.makeChanges = function (money) {
+    VendingMachine.prototype.makeChangesToCoin = function (money) {
         var coin = this.getChangeCoin(money);
         money -= coin;
         switch (coin) {
@@ -747,8 +776,8 @@ var VendingMachine = /** @class */ (function () {
                 this.changes.coin10 += 1;
                 break;
         }
-        if (money >= 10) {
-            this.makeChanges(money);
+        if (money >= _constants__WEBPACK_IMPORTED_MODULE_0__.RULES.MINIMUM_CHANGE) {
+            this.makeChangesToCoin(money);
         }
     };
     VendingMachine.prototype.getRandomInt = function (max) {
@@ -760,10 +789,10 @@ var VendingMachine = /** @class */ (function () {
         return coins[index];
     };
     VendingMachine.prototype.checkProductValidate = function (product, originalIndex) {
-        if (originalIndex === void 0) { originalIndex = -1; }
+        if (originalIndex === void 0) { originalIndex = _constants__WEBPACK_IMPORTED_MODULE_0__.RULES.NOT_EXIST_INDEX; }
         var productIndex = this.findProductIndex(product.name);
         var isExist = productIndex >= 0;
-        var isAddWithDuplicatedName = isExist && originalIndex === -1;
+        var isAddWithDuplicatedName = isExist && originalIndex === _constants__WEBPACK_IMPORTED_MODULE_0__.RULES.NOT_EXIST_INDEX;
         var isModifyWithDuplicateName = isExist && originalIndex !== productIndex;
         if (isAddWithDuplicatedName || isModifyWithDuplicateName) {
             throw new Error(_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.PRODUCT_NAME_IS_DUPLICATED);
@@ -817,7 +846,7 @@ var isValidProductNameLength = function (name) {
     return name.length <= _constants__WEBPACK_IMPORTED_MODULE_0__.RULES.MAX_LENGTH_PRODUCT_NAME && name.length > 0;
 };
 var isUnitOfTen = function (price) {
-    return price % _constants__WEBPACK_IMPORTED_MODULE_0__.RULES.MINIMUM_CHARGE === 0;
+    return price % _constants__WEBPACK_IMPORTED_MODULE_0__.RULES.MINIMUM_CHANGE === 0;
 };
 var isPositiveInteger = function (price) {
     return price > 0;
@@ -854,7 +883,6 @@ var ChangeAdd = /** @class */ (function () {
         this.onSubmitChangeAdd = function (e) {
             e.preventDefault();
             var inputChange = parseInt(_this.$changeAddForm.querySelector('#change-add-input').value);
-            console.log('inputChange component', inputChange);
             try {
                 _model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__["default"].inputChanges(inputChange);
                 _this.refreshChange();
@@ -881,7 +909,6 @@ var ChangeAdd = /** @class */ (function () {
     };
     ChangeAdd.prototype.refreshChange = function () {
         this.$totalChange.textContent = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__["default"].getTotalMoney().toString();
-        console.log(_model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__["default"].getChanges());
         var _a = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__["default"].getChanges(), coin10 = _a.coin10, coin50 = _a.coin50, coin100 = _a.coin100, coin500 = _a.coin500;
         this.$amountCoin500.textContent = coin500 + '개';
         this.$amountCoin100.textContent = coin100 + '개';
@@ -1007,7 +1034,6 @@ var ProductManage = /** @class */ (function () {
     ProductManage.prototype.renderProducts = function () {
         var _this = this;
         var products = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__["default"].getProducts();
-        console.log('products', products);
         products.forEach(function (product) {
             _this.addProductItem(product);
         });
@@ -1051,9 +1077,6 @@ var router = function () {
     var changeAdd = new _pages_ChangeAdd__WEBPACK_IMPORTED_MODULE_0__["default"]();
     var prevPath = '';
     return function () {
-        // https://intae92.github.io/#!/product-manage 현재 오류
-        // https://intae92.github.io/javascript-vendingmachine/#!/product-manage 목표
-        // pathname + hash;
         var hash = window.location.hash;
         if (prevPath === hash) {
             return;
@@ -1158,22 +1181,19 @@ __webpack_require__.r(__webpack_exports__);
 
 
 (0,_js_routes__WEBPACK_IMPORTED_MODULE_1__["default"])();
-var nav = document.querySelector('nav');
 var productManageButton = document.querySelector('#product-manage-button');
 var changeAddButton = document.querySelector('#change-add-button');
-var btn3 = document.querySelector('#product-purchase-button');
+// const btn3 = document.querySelector('#product-purchase-button');
 productManageButton.addEventListener('click', function () {
-    console.log('click1');
     history.pushState({}, '상품 관리하기', window.location.pathname + '#!/product-manage');
     (0,_js_routes__WEBPACK_IMPORTED_MODULE_1__["default"])();
 });
 changeAddButton.addEventListener('click', function () {
-    console.log('click2');
     history.pushState({}, '잔돈 채우기', window.location.pathname + '#!/change-add');
     (0,_js_routes__WEBPACK_IMPORTED_MODULE_1__["default"])();
 });
 window.addEventListener('popstate', function () {
-    console.log('popstate', history.state);
+    (0,_js_routes__WEBPACK_IMPORTED_MODULE_1__["default"])();
 });
 
 })();
