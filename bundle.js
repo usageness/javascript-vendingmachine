@@ -1051,13 +1051,16 @@ var router = function () {
     var changeAdd = new _pages_ChangeAdd__WEBPACK_IMPORTED_MODULE_0__["default"]();
     var prevPath = '';
     return function () {
-        var pathName = window.location.hash;
-        if (prevPath === pathName) {
+        // https://intae92.github.io/#!/product-manage 현재 오류
+        // https://intae92.github.io/javascript-vendingmachine/#!/product-manage 목표
+        // pathname + hash;
+        var hash = window.location.hash;
+        if (prevPath === hash) {
             return;
         }
-        prevPath = pathName;
+        prevPath = hash;
         clearPurchaseBody();
-        switch (pathName) {
+        switch (hash) {
             case '#!/product-manage':
                 productManage.render();
                 break;
@@ -1161,12 +1164,12 @@ var changeAddButton = document.querySelector('#change-add-button');
 var btn3 = document.querySelector('#product-purchase-button');
 productManageButton.addEventListener('click', function () {
     console.log('click1');
-    history.pushState({ prevPath: window.location.hash }, '상품 관리하기', '/#!/product-manage');
+    history.pushState({}, '상품 관리하기', window.location.pathname + '#!/product-manage');
     (0,_js_routes__WEBPACK_IMPORTED_MODULE_1__["default"])();
 });
 changeAddButton.addEventListener('click', function () {
     console.log('click2');
-    history.pushState({ prevPath: window.location.hash }, '잔돈 채우기', '/#!/change-add');
+    history.pushState({}, '잔돈 채우기', window.location.pathname + '#!/change-add');
     (0,_js_routes__WEBPACK_IMPORTED_MODULE_1__["default"])();
 });
 window.addEventListener('popstate', function () {
