@@ -2171,7 +2171,7 @@ var ALERT_MESSAGE = {
 };
 var REMOVE_CONFIRM_MESSAGE = '정말로 삭제하시겠습니까?';
 var DEV_MODE = false;
-var SERVER_URL = 'http://usage-json-server.herokuapp.com';
+var SERVER_URL = 'https://usage-json-server.herokuapp.com';
 
 
 
