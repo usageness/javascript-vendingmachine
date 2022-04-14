@@ -1,12 +1,4 @@
 # Dependency directories
 node_modules/
 
-# build folder
 dist
-
-# database file
-db.json
-
-# test file
-cypress/fixtures/
-cypress/videos/

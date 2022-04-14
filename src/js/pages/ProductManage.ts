@@ -3,17 +3,13 @@ import AddProductComponent from '../components/AddProductComponent';
 import ProductListComponent from '../components/ProductListComponent';
 
 export default class ProductManage {
-  AddProductComponent: AddProductComponent;
-  ProductListComponent: ProductListComponent;
   $inputSection: HTMLElement;
   $contentsContainer: HTMLElement;
   $productAddForm: HTMLElement;
-  $userMenu: HTMLElement;
-  $sectionContainer: HTMLElement;
+  AddProductComponent: AddProductComponent;
+  ProductListComponent: ProductListComponent;
 
   constructor() {
-    this.$userMenu = document.querySelector('.user-menu');
-    this.$sectionContainer = document.querySelector('.section-container');
     this.$inputSection = document.querySelector('.input-section');
     this.$contentsContainer = document.querySelector('.contents-container');
     this.AddProductComponent = new AddProductComponent(this.$inputSection, this.stateChange);

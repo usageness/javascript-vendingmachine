@@ -1,7 +1,6 @@
 import vendingMachine from '../model/VendingMachine';
 import ProductItemComponent from './ProductItemComponent';
 import { Product } from '../interfaces/VendingMachine.interface';
-import throwableFunctionHandler from '../utils/throwableFunctionHandler';
 
 class ModifyProductComponent {
   name: string;
@@ -19,7 +18,7 @@ class ModifyProductComponent {
     this.$productList.addEventListener('click', this.onSubmitModifyCompleteButton);
   };
 
-  private onSubmitModifyCompleteButton = async (e: PointerEvent) => {
+  private onSubmitModifyCompleteButton = (e: PointerEvent) => {
     if ((<HTMLElement>e.target).className !== 'product-modify-submit-button') {
       return;
     }
@@ -34,8 +33,11 @@ class ModifyProductComponent {
 
     const prevName = (<HTMLElement>parentList.querySelector('.product-modify-submit-button')).dataset.name;
 
-    if (await throwableFunctionHandler(() => vendingMachine.modifyProduct(prevName, product))) {
+    try {
+      vendingMachine.modifyProduct(prevName, product);
       ul.replaceChild(this.replaceList(product, ProductItemComponent), parentList);
+    } catch (message) {
+      alert(message);
     }
   };
 
@@ -43,7 +45,7 @@ class ModifyProductComponent {
     const fragment = new DocumentFragment();
     const li = document.createElement('li');
 
-    li.insertAdjacentHTML('beforeend', component(product, true));
+    li.insertAdjacentHTML('beforeend', component(product));
     fragment.appendChild(li);
 
     return fragment;

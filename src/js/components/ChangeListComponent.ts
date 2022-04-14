@@ -2,6 +2,7 @@ import vendingMachine from '../model/VendingMachine';
 
 class ChangeListComponent {
   $changeList: HTMLElement;
+  $contentsContainer: HTMLElement;
   $amountCoin500: HTMLElement;
   $amountCoin100: HTMLElement;
   $amountCoin50: HTMLElement;
